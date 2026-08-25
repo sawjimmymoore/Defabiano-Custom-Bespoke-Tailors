@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------
+   DESIGN TOKENS, light, clean, blue-tinted. Products carry the color;
+   the UI stays neutral so photography and fabric variants are the
+   visual pop, not the chrome. Swap only these values to re-theme the
+   whole site (every component references these tokens, nothing else
+   is hardcoded).
+   ------------------------------------------------------------------ */
+@theme {
+  --color-ink: #0E1522;        /* near-navy, not pure black */
+  --color-paper: #F7F9FC;      /* cool off-white base */
+  --color-paper-2: #EEF2F8;    /* card / section background */
+  --color-brass: #2F5CFF;      /* primary accent, clean blue */
+  --color-brass-light: #5B7CFF;
+  --color-clay: #C1613D;       /* secondary accent, warm terracotta, used sparingly for
+                                   personality: badges, small highlights, hover states on
+                                   dark sections. Never the dominant color. */
+  --color-clay-light: #D98860;
+  --color-line: #DCE3EE;       /* hairline borders */
+  --color-gray: #5B6472;       /* muted text */
+  --color-navy-deep: #0B1220;  /* dark section / footer background */
+  --font-display: var(--font-space-grotesk), ui-sans-serif, system-ui, sans-serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-ink);
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.perspective-container {
+  perspective: 1200px;
+}
+
+::selection {
+  background: var(--color-brass);
+  color: #ffffff;
+}
+
+/* Warm accent underline, used on select headline words for personality
+   without introducing more dominant color */
+.accent-underline {
+  text-decoration-color: var(--color-clay);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
+/* Liquid glass, cinematic hero UI, sits on dark photography.
+   Adapted for our light/blue brand: used ONLY on the dark hero, never on
+   the rest of the light-themed site. */
+.liquid-glass {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+.liquid-glass::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1.2px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.45) 0%,
+    rgba(255, 255, 255, 0.12) 25%,
+    rgba(255, 255, 255, 0) 45%,
+    rgba(255, 255, 255, 0) 65%,
+    rgba(255, 255, 255, 0.12) 85%,
+    rgba(255, 255, 255, 0.45) 100%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.liquid-glass-strong {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+/* Scramble / mesh text hover cursor hint */
+.mesh-text {
+  cursor: default;
+}
+
+@keyframes soft-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-soft-float {
+  animation: soft-float 6s ease-in-out infinite;
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "slug": "signature-two-piece-suit",
+    "name": "Signature Two-Piece Suit",
+    "category": "men",
+    "subcategory": "Suits",
+    "basePrice": 6999,
+    "currency": "THB",
+    "description": "Our most-booked bespoke suit. Fully canvassed construction, hand-finished lapels, cut from a base cloth selection of Italian wool blends.",
+    "details": ["Full canvas construction", "Hand-stitched lapel roll", "2-3 fittings included", "4-6 day turnaround from final fitting"],
+    "turnaround": "4-6 days",
+    "images": ["/products/01_Navy_Suit_On_Model.jpg"],
+    "variants": [
+      { "id": "navy-wool", "label": "Navy", "swatchColor": "#1F2937", "priceModifier": 0, "image": "/products/01_Navy_Suit_On_Model.jpg" },
+      { "id": "charcoal", "label": "Charcoal", "swatchColor": "#3A3A3A", "priceModifier": 0, "image": "/products/02_Charcoal_Suit_On_Model.jpg" },
+      { "id": "grey", "label": "Grey", "swatchColor": "#8A8A82", "priceModifier": 0, "image": "/products/03_Grey_Suit_On_Model.jpg" },
+      { "id": "black", "label": "Black", "swatchColor": "#111111", "priceModifier": 0, "image": "/products/04_Black_Suit_On_Model.jpg" },
+      { "id": "brown", "label": "Brown", "swatchColor": "#5B4130", "priceModifier": 200, "image": "/products/05_Brown_Suit_On_Model.jpg" },
+      { "id": "burgundy", "label": "Burgundy", "swatchColor": "#5C1A22", "priceModifier": 300, "image": "/products/06_Burgundy_Suit_On_Model.jpg" },
+      { "id": "forest-green", "label": "Forest Green", "swatchColor": "#2C3D2E", "priceModifier": 300, "image": "/products/07_Green_Suit_On_Model.jpg" }
+    ],
+    "featured": true,
+    "bestseller": true,
+    "rating": 4.9,
+    "reviewCount": 47,
+    "isNew": false
+  },
+  {
+    "slug": "double-breasted-suit",
+    "name": "Double-Breasted Suit",
+    "category": "men",
+    "subcategory": "Suits",
+    "basePrice": 7999,
+    "currency": "THB",
+    "description": "A sharper silhouette for those who want more presence - six-button front, peak lapels, cut close through the waist.",
+    "details": ["Peak lapels", "Six-button front, two-button close", "Full canvas construction", "5-7 day turnaround"],
+    "turnaround": "5-7 days",
+    "images": ["/products/08_Double_Breasted_Suit_On_Model.jpg"],
+    "variants": [
+      { "id": "navy-db", "label": "Navy", "swatchColor": "#1F2937", "priceModifier": 0, "image": "/products/08_Double_Breasted_Suit_On_Model.jpg" }
+    ],
+    "featured": true,
+    "rating": 4.8,
+    "reviewCount": 19,
+    "isNew": true
+  },
+  {
+    "slug": "black-tie-tuxedo",
+    "name": "Black-Tie Tuxedo",
+    "category": "men",
+    "subcategory": "Formalwear",
+    "basePrice": 9999,
+    "currency": "THB",
+    "description": "Satin-faced peak lapel tuxedo, built for black-tie events and gala evenings.",
+    "details": ["Satin peak lapel", "Silk-covered buttons", "Matching bow tie included", "6-8 day turnaround"],
+    "turnaround": "6-8 days",
+    "images": ["/products/09_Black_Tuxedo.jpg"],
+    "variants": [
+      { "id": "classic-black", "label": "Classic Black", "swatchColor": "#0B0B0B", "priceModifier": 0, "image": "/products/09_Black_Tuxedo.jpg" }
+    ],
+    "rating": 5.0,
+    "reviewCount": 12,
+    "isNew": false
+  },
+  {
+    "slug": "wool-overcoat",
+    "name": "Wool Overcoat",
+    "category": "men",
+    "subcategory": "Outerwear",
+    "basePrice": 8500,
+    "currency": "THB",
+    "description": "A full-length wool overcoat, cut to layer cleanly over a suit.",
+    "details": ["Full wool construction", "Notch lapel", "Interior chest pocket", "5-7 day turnaround"],
+    "turnaround": "5-7 days",
+    "images": ["/products/11_Black_Overcoat.jpg"],
+    "variants": [
+      { "id": "black-overcoat", "label": "Black", "swatchColor": "#111111", "priceModifier": 0, "image": "/products/11_Black_Overcoat.jpg" },
+      { "id": "camel-overcoat", "label": "Camel", "swatchColor": "#C19A6B", "priceModifier": 400, "image": "/products/12_Camel_Overcoat.jpg" }
+    ],
+    "rating": 4.7,
+    "reviewCount": 8,
+    "isNew": true
+  },
+  {
+    "slug": "unstructured-blazer",
+    "name": "Unstructured Blazer",
+    "category": "men",
+    "subcategory": "Sport Coats",
+    "basePrice": 6500,
+    "currency": "THB",
+    "description": "Half-canvas, lightly padded shoulder - built to wear on its own with chinos, not just as a suit separate.",
+    "details": ["Half canvas construction", "Patch pockets available", "4-6 day turnaround"],
+    "turnaround": "4-6 days",
+    "images": ["/products/15_Navy_Blazer.jpg"],
+    "variants": [
+      { "id": "navy-blazer", "label": "Navy", "swatchColor": "#1F2937", "priceModifier": 0, "image": "/products/15_Navy_Blazer.jpg" }
+    ],
+    "rating": 4.6,
+    "reviewCount": 15,
+    "isNew": false
+  },
+  {
+    "slug": "made-to-measure-dress-shirt",
+    "name": "Made-to-Measure Dress Shirt",
+    "category": "men",
+    "subcategory": "Shirts",
+    "basePrice": 1500,
+    "currency": "THB",
+    "description": "Cut to your exact collar, cuff, and sleeve measurements from a rotating cloth selection.",
+    "details": ["Single-needle stitching", "Mother-of-pearl buttons", "2-day turnaround for repeat orders"],
+    "turnaround": "2-4 days",
+    "images": ["/products/41_White_Dress_Shirt.jpg"],
+    "variants": [
+      { "id": "white-poplin", "label": "White", "swatchColor": "#F4F1EA", "priceModifier": 0, "image": "/products/41_White_Dress_Shirt.jpg" },
+      { "id": "sky-blue-oxford", "label": "Sky Blue", "swatchColor": "#A9C4D8", "priceModifier": 150, "image": "/products/42_Blue_Dress_Shirt.jpg" }
+    ],
+    "bestseller": true,
+    "rating": 4.8,
+    "reviewCount": 33,
+    "isNew": false
+  },
+  {
+    "slug": "tailored-trousers",
+    "name": "Tailored Trousers",
+    "category": "men",
+    "subcategory": "Trousers",
+    "basePrice": 2200,
+    "currency": "THB",
+    "description": "Flat-front or pleated, cut to sit at your natural waist with a proper break.",
+    "details": ["Flat-front or single pleat", "Extended waistband option", "3-day turnaround"],
+    "turnaround": "3 days",
+    "images": ["/products/45_Navy_Tailored_Trousers.jpg"],
+    "variants": [
+      { "id": "navy-trousers", "label": "Navy", "swatchColor": "#1F2937", "priceModifier": 0, "image": "/products/45_Navy_Tailored_Trousers.jpg" }
+    ],
+    "rating": 4.7,
+    "reviewCount": 11,
+    "isNew": false
+  },
+  {
+    "slug": "womens-tailored-suit",
+    "name": "Women's Tailored Suit",
+    "category": "women",
+    "subcategory": "Suits",
+    "basePrice": 7500,
+    "currency": "THB",
+    "description": "A structured blazer and matching trouser cut to the female form - sharp shoulder line, nipped waist.",
+    "details": ["Fully lined blazer", "Matching tailored trouser", "Darted waist shaping", "4-6 day turnaround"],
+    "turnaround": "4-6 days",
+    "images": ["/products/21_Womens_Navy_Tailored_Suit.jpg"],
+    "variants": [
+      { "id": "navy-womens", "label": "Navy", "swatchColor": "#1F2937", "priceModifier": 0, "image": "/products/21_Womens_Navy_Tailored_Suit.jpg" },
+      { "id": "black-womens", "label": "Black", "swatchColor": "#161616", "priceModifier": 0, "image": "/products/22_Womens_Black_Tailored_Suit.jpg" }
+    ],
+    "featured": true,
+    "rating": 4.9,
+    "reviewCount": 21,
+    "isNew": false
+  },
+  {
+    "slug": "black-evening-gown",
+    "name": "Black Evening Gown",
+    "category": "women",
+    "subcategory": "Formalwear",
+    "basePrice": 12000,
+    "currency": "THB",
+    "description": "A floor-length evening gown, built for galas and formal events where a suit isn't the answer.",
+    "details": ["Floor-length silhouette", "Fitted bodice", "7-10 day turnaround"],
+    "turnaround": "7-10 days",
+    "images": ["/products/25_Black_Evening_Gown.jpg"],
+    "variants": [
+      { "id": "black-gown", "label": "Black", "swatchColor": "#0B0B0B", "priceModifier": 0, "image": "/products/25_Black_Evening_Gown.jpg" }
+    ],
+    "rating": 5.0,
+    "reviewCount": 6,
+    "isNew": true
+  },
+  {
+    "slug": "boys-formal-suit",
+    "name": "Boys' Formal Suit",
+    "category": "children",
+    "subcategory": "Formalwear",
+    "basePrice": 6000,
+    "currency": "THB",
+    "description": "A scaled-down two-piece suit for weddings and formal family events, built with growth-room seam allowances.",
+    "details": ["Growth-room seams", "Sizes for ages 4-14", "5-day turnaround"],
+    "turnaround": "5 days",
+    "images": ["/products/31_Boys_Navy_Suit.jpg"],
+    "variants": [
+      { "id": "navy-boys", "label": "Navy", "swatchColor": "#1F2937", "priceModifier": 0, "image": "/products/31_Boys_Navy_Suit.jpg" },
+      { "id": "grey-boys", "label": "Grey", "swatchColor": "#8A8A82", "priceModifier": 0, "image": "/products/32_Boys_Grey_Suit.jpg" }
+    ],
+    "rating": 4.8,
+    "reviewCount": 9,
+    "isNew": false
+  },
+  {
+    "slug": "girls-formal-dress",
+    "name": "Girls' Formal Dress",
+    "category": "children",
+    "subcategory": "Formalwear",
+    "basePrice": 5500,
+    "currency": "THB",
+    "description": "A tailored formal dress for flower girls and family events, made to measure rather than off a rack.",
+    "details": ["Made to measure", "Sizes for ages 4-14", "5-day turnaround"],
+    "turnaround": "5 days",
+    "images": ["/products/36_Girls_Pink_Dress.jpg"],
+    "variants": [
+      { "id": "pink-girls", "label": "Pink", "swatchColor": "#E8B4C0", "priceModifier": 0, "image": "/products/36_Girls_Pink_Dress.jpg" }
+    ],
+    "rating": 4.9,
+    "reviewCount": 7,
+    "isNew": true
+  },
+  {
+    "slug": "silk-necktie",
+    "name": "Silk Necktie",
+    "category": "accessories",
+    "subcategory": "Ties",
+    "basePrice": 690,
+    "currency": "THB",
+    "description": "Hand-finished silk tie, cut from the same cloth library used across the suiting collection.",
+    "details": ["Hand-rolled edge", "8cm blade width", "In-stock, no fitting required"],
+    "turnaround": "Ready to ship",
+    "images": ["/products/51_Navy_Silk_Tie.jpg"],
+    "variants": [
+      { "id": "navy-dot-tie", "label": "Navy", "swatchColor": "#1B2740", "priceModifier": 0, "image": "/products/51_Navy_Silk_Tie.jpg" }
+    ],
+    "bestseller": true,
+    "rating": 4.8,
+    "reviewCount": 28,
+    "isNew": false
+  },
+  {
+    "slug": "silk-bow-tie",
+    "name": "Silk Bow Tie",
+    "category": "accessories",
+    "subcategory": "Ties",
+    "basePrice": 690,
+    "currency": "THB",
+    "description": "A self-tie silk bow tie, made to pair with the Black-Tie Tuxedo or worn on its own with a dinner jacket.",
+    "details": ["Self-tie, adjustable neck strap", "100% silk", "Ready to ship"],
+    "turnaround": "Ready to ship",
+    "images": ["/products/54_Black_Bow_Tie.jpg"],
+    "variants": [
+      { "id": "black-bowtie", "label": "Black", "swatchColor": "#0B0B0B", "priceModifier": 0, "image": "/products/54_Black_Bow_Tie.jpg" }
+    ],
+    "rating": 4.9,
+    "reviewCount": 14,
+    "isNew": true
+  },
+  {
+    "slug": "pocket-square",
+    "name": "Linen Pocket Square",
+    "category": "accessories",
+    "subcategory": "Pocket Squares",
+    "basePrice": 350,
+    "currency": "THB",
+    "description": "Hand-rolled linen pocket square, a finishing detail for the Signature Two-Piece or Double-Breasted Suit.",
+    "details": ["Hand-rolled edge", "100% linen", "Ready to ship"],
+    "turnaround": "Ready to ship",
+    "images": [],
+    "variants": [
+      { "id": "white-square", "label": "White", "swatchColor": "#F7F4EC", "priceModifier": 0 },
+      { "id": "burgundy-square", "label": "Burgundy", "swatchColor": "#5C1A22", "priceModifier": 0 }
+    ],
+    "rating": 4.7,
+    "reviewCount": 5,
+    "isNew": false
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "eyebrow": "Bespoke Tailoring \u00b7 Bangkok",
+    "headline": "Cut to You. Not Off the Rack.",
+    "subhead": "De Fabiano has built bespoke suits, shirts, and formalwear on Sukhumvit Road since 2006. Every piece starts with your measurements, not a size chart.",
+    "primaryCta": {
+      "label": "Shop the Collection",
+      "href": "/shop"
+    },
+    "secondaryCta": {
+      "label": "Book a Fitting",
+      "href": "/appointment"
+    }
+  },
+  "stats": [
+    {
+      "value": "20+",
+      "label": "Years, Est. 2006"
+    },
+    {
+      "value": "5.0",
+      "label": "Google & TripAdvisor"
+    },
+    {
+      "value": "4-6",
+      "label": "Day Turnaround"
+    },
+    {
+      "value": "6,999",
+      "label": "THB Starting Price"
+    }
+  ],
+  "about": {
+    "title": "About De Fabiano",
+    "body": [
+      "Founded in 2006 by three brothers, De Fabiano Bespoke has established itself as a leading name in bespoke fashion in Bangkok. With a passion for blending traditional craftsmanship and modern design, we deliver exceptional quality and personalized service in every garment we create.",
+      "We work in wool, cotton, silk, and linen from a curated cloth library, with structured canvas construction options, including full-canvas configurations, for enhanced longevity and shape retention. Every client receives a uniquely drafted pattern, not an adjusted house block.",
+      "We regularly work with international clients: measurements and fittings are taken in person, and finished garments are shipped once complete, with tracking provided where available."
+    ],
+    "address": "762/12 Sukhumvit Road, Sukhumvit Soi 32, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand",
+    "rating": "5-star rated on Google and TripAdvisor"
+  },
+  "faq": [
+    {
+      "q": "Where can I find the best custom suit in Sukhumvit, Bangkok?",
+      "a": "We're located at 762/12 Sukhumvit Road, Khlong Tan, Khlong Toei, Bangkok 10110, conveniently accessible from Phrom Phong and Thonglor BTS. We specialize in full bespoke and made-to-measure suits with personalized craftsmanship."
+    },
+    {
+      "q": "How long does it take to make a custom suit in Bangkok?",
+      "a": "Our standard turnaround is typically 4-6 days, depending on fabric availability and construction method. Rush service may be available on request, confirm timelines before ordering."
+    },
+    {
+      "q": "How many fittings are required for a custom suit?",
+      "a": "Most bespoke or made-to-measure suits require an initial measurement session, at least one fitting, and a final adjustment fitting if needed. More complex garments may require additional fittings."
+    },
+    {
+      "q": "Is a deposit required for custom tailoring?",
+      "a": "Yes, a deposit of 50% or more is required to begin production, since fabric is ordered and cut specifically for the client. Custom garments are made-to-order and cannot be resold."
+    },
+    {
+      "q": "Why are custom suits non-refundable?",
+      "a": "Once fabric is cut and construction begins, the garment is uniquely made for your measurements and design choices. Because of this personalization, custom orders are generally non-refundable, though we ensure proper fit adjustment before delivery."
+    },
+    {
+      "q": "Can I order while visiting Bangkok and have it shipped later?",
+      "a": "Yes. We take measurements during your visit, complete fittings within your stay where time allows, and ship final garments internationally. Shipping fees and customs duties may apply."
+    },
+    {
+      "q": "Can consultations be conducted virtually?",
+      "a": "Yes. Consultation, design, and guided measurements can be conducted remotely. Finished garments can be shipped internationally."
+    },
+    {
+      "q": "What payment methods are accepted?",
+      "a": "Cash, credit/debit cards, bank transfers, and international payment methods depending on location. Please confirm your preferred method before your appointment."
+    }
+  ],
+  "contact": {
+    "whatsapp": "+66851124295",
+    "email": "sam@defabiano.com",
+    "facebook": "@defabianotailors",
+    "instagram": "@defabianotailors",
+    "youtube": "@defabianobangkok",
+    "address": "762/12 Sukhumvit Road, Sukhumvit Soi 32, Khlong Tan, Khlong Toei, Bangkok 10110, Thailand",
+    "hours": "Mon-Sat 09:00-21:00, Sun 01:00-17:00",
+    "whatsappMessage": "Hi, I'd like to ask about pricing for a bespoke commission."
+  }
+}
